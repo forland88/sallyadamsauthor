@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f0e17" />
+  <title>Pagina non trovata · Page not found – Sally Adams</title>
+  <meta name="robots" content="noindex" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Gentium+Plus:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" href="/logo-sa.png" />
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    .nf { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 3rem var(--gap); }
+    .nf-logo { height: 90px; width: auto; margin-bottom: 1.5rem; filter: brightness(0) invert(1); mix-blend-mode: screen; opacity: .85; }
+    .nf-code { font-family: var(--ff-sans); font-size: .75rem; letter-spacing: .3em; color: var(--clr-gold); text-transform: uppercase; margin-bottom: .75rem; }
+    .nf h1 { font-family: var(--ff-display); font-size: clamp(1.8rem, 5vw, 2.6rem); color: var(--clr-white); line-height: 1.2; }
+    .nf h1 span { display: block; font-size: .6em; color: var(--clr-text-muted); font-style: italic; margin-top: .35rem; }
+    .nf p { color: var(--clr-text-muted); max-width: 32rem; margin: 1.2rem auto 0; }
+    .nf-cta { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: center; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <main class="nf">
+    <img src="/logo-sa.webp" alt="" class="nf-logo" width="512" height="512" aria-hidden="true">
+    <p class="nf-code">Errore 404 · Error 404</p>
+    <h1>Pagina non trovata<span>Page not found</span></h1>
+    <p>La pagina che cerchi non esiste o è stata spostata.<br>The page you're looking for doesn't exist or has been moved.</p>
+    <div class="nf-cta">
+      <a href="/" class="btn btn-primary">Torna alla home</a>
+      <a href="/libri.html" class="btn btn-ghost">I libri</a>
+      <a href="/en/" class="btn btn-ghost">English site</a>
+    </div>
+  </main>
+</body>
+</html>

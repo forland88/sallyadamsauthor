@@ -1,0 +1,23 @@
+{
+  "name": "Sally Adams – Autrice",
+  "short_name": "Sally Adams",
+  "description": "Autrice italiana di romance e dark romance. Weirdos Serie e Club Rouge.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#0f0e17",
+  "theme_color": "#0f0e17",
+  "icons": [
+    {
+      "src": "/logo-sa.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
